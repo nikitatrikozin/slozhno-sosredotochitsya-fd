@@ -75,6 +75,11 @@
   font-size: var(--font-size);
   line-height: 1.3;
 }
+
+.decor {
+  color: var(--main-card-title-color);
+  background-color: var(--accent-color);
+}
 /*----------------------Декоративный приём----------------------*/
 
 .title-decor {
@@ -231,7 +236,6 @@
 .footer {
   display: grid;
   place-items: center;
-  height: 100vh;
   min-height: 668px;
   padding-inline: 10px;
   padding-block: 10px;
